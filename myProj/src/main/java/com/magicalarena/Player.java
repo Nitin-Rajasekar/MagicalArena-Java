@@ -13,6 +13,7 @@ public class Player {
         this.attack = attack;
         this.name = name;
         this.colour_code = colour_code;
+        System.out.printf(colour_code+"Player %s has been instantiated\n", name);
     }
 
     public int getHealth() {
