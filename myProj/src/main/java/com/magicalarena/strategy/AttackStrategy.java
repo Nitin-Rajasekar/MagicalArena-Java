@@ -18,7 +18,7 @@ public class AttackStrategy {
 
         int rollValue= attackDie.roll();
         System.out.printf(attacker.getColour_code() + "The attacking dice roll value is %d\n", rollValue);
-        int attackDamage= attacker.getAttack() + attackDie.roll();
+        int attackDamage= attacker.getAttack() * attackDie.roll();
         System.out.printf(attacker.getColour_code()+attacker.getName()+ "'s net attack damage is %d\n" + ANSI_RESET, attackDamage);
         return attackDamage;
     }
