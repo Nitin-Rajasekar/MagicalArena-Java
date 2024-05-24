@@ -11,7 +11,7 @@ public class SixSidedDie implements Die {
 
     @Override
     public int roll() {
-        return random.nextInt(6);
+        return random.nextInt(6) + 1;
     }
 }
 
