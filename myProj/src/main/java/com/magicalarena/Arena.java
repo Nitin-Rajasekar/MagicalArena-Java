@@ -100,6 +100,12 @@ public class Arena {
         // %d\n" + ANSI_RESET,
         // attacker.getName(), defender.getName(), damageDealt, defender.getHealth());
 
-        
+        System.out.printf(
+                player1.getColour_code() + "Player 1: %s | Health: %d | Strength: %d | Attack: %d\n" + ANSI_RESET,
+                player1.getName(), player1.getHealth(), player1.getStrength(), player1.getAttack());
+
+        System.out.printf(
+                player2.getColour_code() + "Player 2: %s | Health: %d | Strength: %d | Attack: %d\n" + ANSI_RESET,
+                player2.getName(), player2.getHealth(), player2.getStrength(), player2.getAttack());
     }
 }
