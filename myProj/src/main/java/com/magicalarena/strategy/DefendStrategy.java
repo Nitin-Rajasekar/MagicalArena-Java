@@ -18,7 +18,7 @@ public class DefendStrategy {
 
         int rollValue= defendDie.roll();
         System.out.printf(defender.getColour_code() + "The defending dice roll value is %d\n", rollValue);
-        int defencePotential= defender.getAttack() * defendDie.roll();
+        int defencePotential= defender.getStrength() * defendDie.roll();
         System.out.printf(defender.getColour_code()+defender.getName()+ "'s net defence potential is %d\n" + ANSI_RESET, defencePotential);
         return defencePotential;
 
