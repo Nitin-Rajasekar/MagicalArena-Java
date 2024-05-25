@@ -92,7 +92,7 @@ public class Arena {
         int damageDealt = Math.max(0, attackDamage - defense);
         defender.setHealth(defender.getHealth() - damageDealt);
 
-        System.out.printf(ANSI_RED + "The net damage dealt by %s to %s is %d\n", attacker.getName(),
+        System.out.printf(ANSI_RED + "The net damage dealt by %s to %s is %d\n" + ANSI_RESET, attacker.getName(),
                 defender.getName(), damageDealt);
 
         // // System.out.printf(
