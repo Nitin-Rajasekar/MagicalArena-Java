@@ -19,5 +19,11 @@ public class PlayerTest {
         assertEquals(40, player.getHealth());
     }
 
-   
+    @Test
+    public void testPlayerIsAlive() {
+        Player player = new Player(50, 5, 10, "Ramesh", "\033[34m");
+        assertTrue(player.isAlive());
+        player.setHealth(0);
+        assertFalse(player.isAlive());
+    }
 }
