@@ -1,0 +1,7 @@
+com/magicalarena/Arena.class
+com/magicalarena/dice/SixSidedDie.class
+com/magicalarena/dice/Die.class
+com/magicalarena/strategy/DefendStrategy.class
+com/magicalarena/Main.class
+com/magicalarena/Player.class
+com/magicalarena/strategy/AttackStrategy.class
