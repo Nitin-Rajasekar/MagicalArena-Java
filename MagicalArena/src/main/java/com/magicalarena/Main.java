@@ -9,7 +9,6 @@ public class Main {
 
         // ANSI color codes
 
-        final String ANSI_RESET = "\033[0m";
         final String ANSI_YELLOW = "\033[33m";
 
 
