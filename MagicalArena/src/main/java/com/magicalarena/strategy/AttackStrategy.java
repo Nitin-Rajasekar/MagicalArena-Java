@@ -20,10 +20,10 @@ public class AttackStrategy {
 
 
         int rollValue= attackDie.roll();
-        System.out.printf(attacker.getColour_code() + "The attacking dice roll value is %d\n", rollValue);
+        System.out.printf(attacker.getColour_code() + "The atttacking dice roll value is %d\n", rollValue);
 
         // Calculating the net attack damage based on the player's attack attributte and die roll
-        int attackDamage= attacker.getAttack() * attackDie.roll();
+        int attackDamage= attacker.getAttack() * rollValue;
         System.out.printf(attacker.getColour_code()+attacker.getName()+ "'s net attack damage is %d\n" + ANSI_RESET, attackDamage);
         return attackDamage;
     }

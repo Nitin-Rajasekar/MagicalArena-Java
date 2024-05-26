@@ -24,7 +24,7 @@ public class DefendStrategy {
         
         // Calculating the net defence potential based on the player's defence attributte and die roll
 
-        int defencePotential= defender.getStrength() * defendDie.roll();
+        int defencePotential= defender.getStrength() * rollValue;
         System.out.printf(defender.getColour_code()+defender.getName()+ "'s net defence potential is %d\n" + ANSI_RESET, defencePotential);
         return defencePotential;
 
