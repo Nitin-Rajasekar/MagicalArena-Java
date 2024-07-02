@@ -27,7 +27,7 @@ Magical Arena is a turn-based combat game, involving two players engaged in drai
 1) Navigate to the Project directory:
 
   ```
-   cd Project/MagicalArena
+   cd MagicalArena-Java/MagicalArena
   ```
    
 2) Use Maven to build the project:
@@ -41,7 +41,7 @@ mvn clean install
 Again first navigate to the project directory
 
 ```
-   cd Project/MagicalArena
+   cd MagicalArena-Java/MagicalArena
 ```
 
 After building the project, you can run it using maven
