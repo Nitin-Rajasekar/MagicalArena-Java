@@ -110,8 +110,6 @@ MagicalArena/
 
 ```
 
-### Acknowledgements
 
-I would like to thank Swiggy for providing the opportunity to work on this project.
 
 
